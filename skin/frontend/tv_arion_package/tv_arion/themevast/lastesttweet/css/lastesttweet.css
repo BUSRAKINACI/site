@@ -1,0 +1,55 @@
+#twitter-feed {
+	margin-bottom: 30px;
+}
+#twitter-feed i {
+	font-size: 20px;
+	color: #3a3a3a;
+}
+#twitter-feed .tweet-time i{ font-size: 14px; color: #888; margin-right: 6px; }
+
+#twitter-feed .footer-static-title h3 {
+	border-bottom: none;
+	margin: 0;
+}
+#loading-container {
+	text-align: center;
+}
+.tweet-content {}
+.tweet-title {}
+.twitter-article {
+	padding: 0 0 0px;
+	margin-top: -5px;
+	margin-bottom: 15px;
+	border-bottom: 1px solid #373737;
+}
+.twitter-article:last-child{ border:0; }
+.twitter-article a {}
+.twitter-article a:hover {}
+.twitter-pic {
+	float: left;
+}
+.twitter-text {
+	font-size: 13px;
+	margin-left: 30px;
+	color: #888;
+	line-height: 17px;
+}
+.tweetprofilelink br{  }
+.tweetprofilelink strong a {
+	color: #58cedf;
+	text-decoration: none;
+	font-weight: 400;
+	font-size: 13px;
+	text-transform: uppercase;
+}
+.tweetprofilelink strong a:hover {
+	color: #58cedf;
+	
+}
+.tweet-time {
+	clear: both;
+	line-height: 31px;
+}
+ .tweet-time a {
+	color: #888;
+}

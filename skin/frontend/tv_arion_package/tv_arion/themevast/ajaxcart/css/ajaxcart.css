@@ -1,0 +1,95 @@
+.wrapper_inboxCart {
+    position: fixed;
+    width: 320px;
+    height: auto;
+    background: #fff;
+    z-index: 999999;
+    border: 1px solid #ddd;
+    opacity: 1;
+    top: 50%;
+    margin-top: -100px;
+    left: 50%;
+    margin-left: -120px;
+    display: block;
+    padding: 0;
+}
+
+.wrapper_inboxCart p.info {
+    color: #262626;
+    font-size: 13px;
+    background: #fff;
+    border: 1px solid #efefef;
+    padding: 12px 10px;
+    text-align: center;
+    margin: 0;
+    box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.51);
+    }
+#product_info_box { display: none; }
+.wrapper_inboxCart .p_image, .wrapper_inboxCart .p_name  { text-align: center; margin-bottom: 10px;}
+
+.wrapper_inboxCart .continue_shopping,
+.wrapper_inboxCart .shopping_cart {
+    border: 1px solid #ddd;
+    display: block;
+    margin: 10px 0 0;
+    color: #FFFFFF;
+    padding: 7px 10px;
+    background: #fff;
+    color: #333;
+    text-align: center;
+    display:none;
+    
+}
+#product_info_box { display: none; }
+.wrapper_inboxCart .continue_shopping:hover,
+.wrapper_inboxCart .shopping_cart:hover { background:#333; text-decoration: none; color: #fff;}
+
+
+/* top cart  */
+
+.header-cart-mini .top-cart-content {
+    width:270px;
+    position: absolute;
+    top: 55px;
+    opacity:0;
+    right: 0;
+    z-index: -1;
+    margin-left: -160px;
+    border: 1px solid #D5D5D5;
+    background:#fff;
+    padding: 15px;
+    text-align: left;
+}
+.mini_cart_ajax {  }
+.mini_cart_ajax:hover {overflow: visible;}
+.mini_cart_ajax:hover .top-cart-content { top: 44px; opacity:1; z-index: 99;}
+
+.top-subtotal {
+    margin: 15px 0 0;
+    font-size: 13px;
+    text-transform: uppercase;
+    font-weight: normal;
+    text-align: right;
+    border-top: 1px solid #eee;
+    clear: both;
+    border-bottom: 1px solid #eee;
+    padding: 10px 0;
+}
+
+.top-cart-content li.item{ float:left; width:100%; margin:0 0 10px; }
+.top-cart-content li.item .product-name a { font-size: 13px; font-weight: normal; }
+.top-cart-content .product-details { position:relative; }
+.top-cart-content .product-details .btn-remove{ position:absolute; right: 0; top:4px; }
+.top-cart-content .product-details .btn-edit{ position:absolute; right: 15px; top:4px; }
+
+.top-cart-content .actions {
+    padding: 0;
+    float: right;
+    margin:10px 0 0;
+}
+.top-cart-contain .product-details .price {width: auto;font-size: 15px;font-weight: bold;}
+.top-subtotal span{font-weight: bold;font-size: 15px}
+.top-cart-content .actions button > span { border: 1px solid #e0e0e0; padding: 5px 11px  }
+
+
+

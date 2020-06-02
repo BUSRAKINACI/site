@@ -1,0 +1,55 @@
+.cattab_container { position: relative; min-height: 339px }
+.cattab_container p { margin-bottom:0; }
+.col-main > div:nth-child(5) .cattab_container p.thum-image1,
+.cattab_container p.thum-image2 { display: none; }
+.col-main > div:nth-child(5)  .cattab_container p.thum-image2 { display: block; }
+p.thum-image2,
+p.thum-image1 {
+	display:inline-block;
+	float: left;
+}
+.cattabs-products { display: inline-block; float: left; }
+.cattab_container .cattabs-products .item { margin-right: 1px; }
+ul.cattabs li {
+	float: left;
+	margin: 0 0 0 25px;
+	cursor: pointer;
+	height: 13px;
+	line-height: 13px;
+	border-left: none;
+	list-style: none;
+	position: relative;
+	font-size: 13px;
+	font-weight: 400;
+	color: #666;
+	text-transform: capitalize;
+	
+}
+ul.cattabs li:after{
+	position: absolute;
+	content: "";
+	background: #ddd;
+	display: block;
+	width: 8px;
+	height: 8px;
+	bottom: -16px;
+	left: 50%;
+	margin-left: -4px;
+	display: none;
+}
+ul.cattabs li.active:after { display: block; z-index:999; }
+ul.cattabs li:first-child{ }
+ul.cattabs {
+	display: inline-block;
+	margin: 0;
+	vertical-align: middle;
+	padding-top: 4px;
+	}
+ul.cattabs li.active,
+ul.cattabs li:hover {
+	color: #222;
+}	
+
+.ajax_loading{
+	clear: both;
+}
